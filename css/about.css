@@ -1,0 +1,21 @@
+
+body {
+	background-color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	color: white;
+}
+
+#myDiv {
+	display: none;
+}
+
+#myDiv:target {
+	display:block;
+}
+
