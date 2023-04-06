@@ -28,7 +28,7 @@
 html, body {
 background-color: #00000000;
 margin: 0px;
-cursor: url("../cursors/default32x32(2).png"),default;
+cursor: url("../cursors/default16x16(2).png"),default;
 }
 
 div#matrix {
@@ -104,7 +104,7 @@ text-decoration:none;
 color: #00ff41;
 transition: color .3s ease-in-out;
 transition-delay: .2s ease-in .1s ease-out;
-cursor: url("../cursors/pointer32x32(2).png"),pointer;
+cursor: url("../cursors/pointer16x16(2).png"),pointer;
 }
 
 li {
@@ -148,5 +148,5 @@ div.footer {
 }
 
 a.game {
-  cursor: url("../cursors/text32x32(2).png"),text;
+  cursor: url("../cursors/text16x16(2).png"),text;
 }
