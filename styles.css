@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Electrolize&family=Geo:ital@0;1&family=Geostar&family=Geostar+Fill&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Indie+Flower&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jura:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reenie+Beanie&family=Tilt+Warp&display=swap');
+
+@media all and (orientation:portrait){div.links-navbar{display: none;}}
+
+@media all and (orientation:landscape){div.orin-warning{display: none;}}
+
+html, body {
+background-color:#090505;
+/*background-image: url('img5.jpg');
+background-position: center;
+background-size: cover;
+filter: saturate(90%);*/
+}
+
+p {
+font-family: electrolize;
+color: gray;
+font-size: 30px;
+text-align: center;
+}
+
+.title {
+font-family:Geostar;
+color:#090505;
+font-size:50px;
+text-align: center;
+}
+
+.links-navbar {
+font-family:Geostar;
+text-align:center;
+font-weight:500;
+font-size:40px;
+color:#ec2c17;
+/*padding-left: 150px;*/
+/*padding-right: 350px;*/
+/*padding-top: 140px;*/
+padding: 140px;
+letter-spacing: 5px;
+line-height: 60px;
+}
+
+div.orin-warning {
+position:absolute;
+top:50%; left:45%;
+transform: translate(-40%, -50%);
+}
+
+img.orin-icon {
+filter: invert(100%) contrast(50%);
+width: 50px;
+}
+
+div.orin-icon {
+text-align: center;
+}
+
+.home {
+font-size: 60px;
+font-weight: 700;
+}
+
+a {
+text-decoration:none;
+color: #ec2c17;
+transition: color .3s ease-in-out;
+transition-delay: .2s ease-in .1s ease-out;
+}
+
+li {
+list-style-type: none;
+}
+
+/*button {
+  width: 6em
+}*/
+
+a.mail:hover span {
+  display: none
+}
+
+a.mail:hover:before {
+  content: "theordinaryom@gmail.com";
+  transition: content .4s ease-in-out;
+}
+
+a:hover {
+color: white;
+text-decoration: underline;
+font-family: Geostar Fill;
+}
