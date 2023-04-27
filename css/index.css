@@ -120,7 +120,7 @@ a.mail:hover span {
 }
 
 a.mail:hover:before {
-  content: "theordinaryom@gmail.com";
+  content: "potatochips03@disroot.org";
   transition: content .4s ease-in-out;
   font-size: 33px;
 }
