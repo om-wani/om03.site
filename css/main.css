@@ -53,7 +53,7 @@ div.box {
 }
 
 a {
-    color: #0070f3;
+    color: rgba(148, 199, 47) ;
     text-decoration: none;
 }
 
@@ -62,16 +62,12 @@ a:hover {
 }
 
 h1 {
-    color: rgba(148, 199, 47);
-    text-decoration: underline;
+    color:#0070f3;
+    font-weight: 450;
 }
 
 .mono {
     font-family: 'Roboto Mono', monospace;
-}
-
-.role {
-    font-weight: bold;
 }
 
 .material-symbols-rounded {
@@ -118,3 +114,11 @@ div.learn-more { display: none; }
     background-color: rgba(100, 100, 100, 0.384);
     color: aqua;
 }
+
+.extended {
+    display: flex;
+    text-align: left;
+    padding-right: 500px;
+    flex-direction: column;
+}
+
