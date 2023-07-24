@@ -4,24 +4,18 @@
   box-sizing: border-box;
 }
 
-html {
-    margin: -50px 0 50px 0;
-}
-
 body {
   border: 0;
   padding: 0;
   margin: 0;
   font-family: Inter, sans-serif;
-  overflow: hidden;
   background-color: rgba(27, 47, 57);
-  color: rgba(182, 57, 127);
+  color: #b6397f;
 }
 
-div {
-  display: block;
-}
-
+/* div {
+    display: block;
+}*/
 .sub-container {
   padding: 0 4rem;
 }
@@ -36,28 +30,12 @@ div {
     align-items: center;
 }
 
-.villan {
-    flex: 1 1;
-    padding: 2rem 0;
-    border-top: 1px solid #eaeaea82;
-    display: flex;
-    max-height: 10vh;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-}
-
-.villan div {
-    margin: 0 1rem;
-    text-align: center;
-}
-
 div.box {
     text-align: left;
 }
 
 a {
-    color: rgba(148, 199, 47);
+    color: #94c72f ;
     text-decoration: none;
 }
 
@@ -66,16 +44,12 @@ a:hover {
 }
 
 h1 {
-    color: rgba(148, 199, 47);
-    text-decoration: underline;
+    color:#0070f3;
+    font-weight: 450;
 }
 
 .mono {
     font-family: 'Roboto Mono', monospace;
-}
-
-.role {
-    font-weight: bold;
 }
 
 .material-symbols-rounded {
@@ -121,9 +95,84 @@ div.learn-more { display: none; }
     border-radius: 5px;
     background-color: rgba(100, 100, 100, 0.384);
     color: aqua;
-    font-size: large;
 }
 
-.facts {
-    color: aqua;
+.extended {
+    display: flex;
+    text-align: left;
+    padding-right: 500px;
+    flex-direction: column;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.card {
+    display: inline-flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border: 1px solid #b6397f;
+    margin: 5px;
+    background-color: #e6e6e653;
+}
+
+.card p {
+    color: #94c72f;
+}
+
+.card a {
+    color: #94c72f;
+}
+
+.card:hover {
+    background-color: #b6398069;
+}
+
+.card-img {
+    display: flex;
+    align-items: center;
+}
+
+img.social-icon {
+    margin: 10px 5px 10px 10px;
+    height: 50px;
+    width: auto;
+    text-align: center;
+}
+
+div.card-content p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card-content {
+    margin: 10px 10px 10px 5px;
+}
+
+.quick-links {
+    font-size: xxx-large;
+}
+
+.activity-title {
+    color: #0070f3;
+}
+
+.index-link a {
+    color: #e6e6e6;
+}
+.index-link {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 35px;
+    padding: 10px;
+    z-index: 10;
+    border-radius: 5px;
+    border: 0px solid#e6e6e6;
+    background-color: #e6e6e61b;
 }
