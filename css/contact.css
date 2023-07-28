@@ -176,3 +176,32 @@ div.card-content p {
     border: 0px solid#e6e6e6;
     background-color: #e6e6e61b;
 }
+.previous-page-link a {
+    color: #e6e6e6;
+}
+.previous-page-link {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 670px 35px 35px 35px;
+    padding: 10px ;
+    z-index: 10;
+    border-radius: 5px;
+    border: 0px solid#e6e6e6;
+    background-color: #e6e6e61b;
+}
+
+.next-page-link a {
+    color: #e6e6e6;
+}
+.next-page-link {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 670px 35px 35px 1300px;
+    padding: 10px;
+    z-index: 10;
+    border-radius: 5px;
+    border: 0px solid#e6e6e6;
+    background-color: #e6e6e61b;
+}
